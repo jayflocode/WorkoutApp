@@ -1,4 +1,4 @@
-package jfit;
+package hibernate;
 
 public class Schedule {
 	
@@ -8,7 +8,7 @@ public class Schedule {
 	static String[] Thursday = {"Empty", "Empty", "Empty"};
 	static String[] Friday = {"Empty", "Empty", "Empty"};
 	static String[] Saturday = {"Empty", "Empty", "Empty"};
-	static String[] Sunday = {"Off", "", ""};
+	static String[] Sunday = {"Off", "Off", "Off"};
 	
 	
 	

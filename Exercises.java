@@ -1,9 +1,9 @@
-package jfit;
+package hibernate;
 
 public class Exercises   {
 	
 	static String[] exercises = {"1. Bench Press", "2. Tricep Pulldown", "3. Dips", "4. Deadlift", "5. Bicep Curls", "6. Shoulder Press"
-			,"7. Squat", "8. Leg Press", "9. Leg Curls", "10.Seated Leg Extensions", "11. Running", "12. Cycling","13. Jump Rope","14. Swimming","   "};
+			,"7. Squat", "8. Leg Press", "9. Leg Curls", "10.Leg Extensions", "11.Running", "12.Cycling","13.Jump Rope","14.Swimming","15.Off"};
 	
 	
 	

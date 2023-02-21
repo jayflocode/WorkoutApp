@@ -1,4 +1,4 @@
-package jfit;
+package hibernate;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class setWork extends Schedule {
 		
 		// this function calls upon the methods that modify the dates of the Schedule using the information from the Exercises class
 		
-		System.out.println("(1) Monday (2) Tuesday (3) Wednesday (4) Thursday (5) Friday (6) Sunday (7) Sunday (8) Exit ");
+		System.out.println("(1) Monday (2) Tuesday (3) Wednesday (4) Thursday (5) Friday (6) Saturday (7) Sunday (8) Exit ");
 		
 		input = scan.nextInt();
 		
@@ -144,6 +144,8 @@ public class setWork extends Schedule {
 				input = input - 1;
 				
 				Monday[0] = getEx.exercises[input].substring(3);
+
+
 				
 				
 				System.out.println("\nPick Exercise 2");
@@ -162,6 +164,8 @@ public class setWork extends Schedule {
                 input = input - 1;
 				
 				Monday[2] = getEx.exercises[input].substring(3);
+
+
 
 			
 				input = 3;
@@ -765,11 +769,11 @@ public class setWork extends Schedule {
         		
         	
         		
-        		System.out.println("Sunday Schedule\n");
+        		System.out.println("Saturday Schedule\n");
         		
-        		for (int i = 0; i < Sunday.length; i++) {
+        		for (int i = 0; i < Saturday.length; i++) {
         			
-        			System.out.println(Sunday[i]);
+        			System.out.println(Saturday[i]);
         			
         			
         		}
@@ -794,7 +798,7 @@ public class setWork extends Schedule {
         				
         				input = input - 1;
         				
-        				Sunday[0] = getEx.exercises[input].substring(3);
+        				Saturday[0] = getEx.exercises[input].substring(3);
         				
         				
         				System.out.println("\nPick Exercise 2");
@@ -803,7 +807,7 @@ public class setWork extends Schedule {
         				
                         input = input - 1;
         				
-        				Sunday[1] = getEx.exercises[input].substring(3);
+        				Saturday[1] = getEx.exercises[input].substring(3);
         				
                         
         				System.out.println("\nPick Exercise 3");
@@ -812,7 +816,7 @@ public class setWork extends Schedule {
         				
                         input = input - 1;
         				
-        				Sunday[2] = getEx.exercises[input].substring(3);
+        				Saturday[2] = getEx.exercises[input].substring(3);
 
         			
         				input = 3;
@@ -828,7 +832,7 @@ public class setWork extends Schedule {
         				
         				if (input == 1) {
         				
-        				Sunday[0] = "Empty";
+        				Saturday[0] = "Empty";
         				
         				System.out.println("Exercise 1 removed!");
         				
@@ -844,7 +848,7 @@ public class setWork extends Schedule {
         				
         				if (input == 1) {
         				
-        				Sunday[1] = "Empty";
+        				Saturday[1] = "Empty";
         				
         				System.out.println("Exercise 2 removed!");
         				
@@ -859,7 +863,7 @@ public class setWork extends Schedule {
         					
         					if (input == 1) {
         					
-        					Sunday[2] = "Empty";
+        					Saturday[2] = "Empty";
         					
         					System.out.println("Exercise 3 removed!");
         					
